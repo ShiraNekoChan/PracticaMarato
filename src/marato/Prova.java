@@ -12,7 +12,7 @@ public class Prova {
 	
 	//atributs
 	
-	private String nom="";
+	private String nom=""; // els atributs no s'han d'inicialitzar amb cap valor, això ho fa el constructor.
 	private int any=0; 
 	protected ArrayList<Participant> participant;
 	private int codiProva=0;

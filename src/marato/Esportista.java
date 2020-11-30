@@ -3,7 +3,7 @@ package marato;
 import java.time.LocalDate;
 import java.util.Random;
 
-public class Esportista {
+public class Esportista { // ha de ser fill de EsportistaNoFederat
 	
 	/*
 	 * Crearem la clase Esportista que tindrà el nom, els dos cognoms, el sexe, la seva data de naixament, dni, el club i el codi federat.
@@ -11,7 +11,7 @@ public class Esportista {
 	 */
 	
 	//atributs
-	private String nom="";
+	private String nom=""; // els atributs no s'han d'inicialitzar amb cap valor, això ho fa el constructor.
 	private String cognom1="";
 	private String cognom2="";
 	private char sexe=' ';
@@ -33,7 +33,7 @@ public class Esportista {
 	//constructor
 	public Esportista(String nom, String cognom1, String cognom2, char sexe, LocalDate dataNaix, String dni, Club club, int codi) {
 		
-		this.setNom(nom);
+		this.setNom(nom); // Ha de cridar al constructor de la superclasse
 		this.setCognom1(cognom1);
 		this.setCognom2(cognom2);
 		this.setSexe(sexe);

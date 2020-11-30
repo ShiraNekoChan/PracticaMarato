@@ -12,7 +12,7 @@ public class Club {
 	
 	//atributs
 	
-	private String nom="";
+	private String nom=""; // els atributs no s'han d'inicialitzar amb cap valor, això ho fa el constructor.
 	private int cp=0;
 	private int Afundacio=0;
 	private int codi=0;
@@ -24,7 +24,7 @@ public class Club {
 	
 	public Club(String nom, int cp, int Afundacio, int codi) {
 		
-		this.setNom(nom);
+		this.setNom(nom); // no és del tot correcte, estàs cridant una funció per assignar valor a un atribut, a més la clausula this es fa servir quan el nom de l'atribut i el nom del paràmetre de la funció són el mateix en el cas que fas servir seria "this.nom=nom;"
 		this.setCp(cp);
 		this.setAnyFundacio(Afundacio);
 		this.setCodi(codi);

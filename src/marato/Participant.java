@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Random;
 
-public class Participant {
+public class Participant { // ha de ser fill de Esportista no federat
 	
 	/*
 	 * Crearem la clase participant que tindrà el Nom, els cognoms, les data de naixament, el sexe, el club i tempsprova

@@ -3,14 +3,14 @@ package marato;
 import java.time.*;
 import java.util.ArrayList;
 
-public class Marato {
+public class Marato {//ha de ser fill de prova
 	
 	/*
 	 * Crearem la clase marato que tindrà el codi de la marato, la data i la hora de sortida
 	 */
 	
 	//atributs
-	private int codiMarato=0;
+	private int codiMarato=0; // els atributs no s'han d'inicialitzar amb cap valor, això ho fa el constructor.
 	protected ArrayList<Participant> participant;
 	private LocalDate data;
 	private LocalTime horaSortida;

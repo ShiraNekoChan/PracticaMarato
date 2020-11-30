@@ -10,7 +10,7 @@ public class EsportistaNoFederat {
 	 */
 	
 	//atributs
-	private String nom="";
+	private String nom="";// els atributs no s'han d'inicialitzar amb cap valor, això ho fa el constructor.
 	private String cognom1="";
 	private String cognom2="";
 	private char sexe=' ';

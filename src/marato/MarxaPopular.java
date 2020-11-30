@@ -4,14 +4,14 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 
-public class MarxaPopular {
+public class MarxaPopular { //ha de ser fill de prova
 	
 	/*
 	 * Crearem la clase marxaPopular que tindrà el codi de la marxa, la ubicacio, la data i la hora de sortida
 	 */
 
 	//atributs
-	private int codiMarxa=0;
+	private int codiMarxa=0; // els atributs no s'han d'inicialitzar amb cap valor, això ho fa el constructor.
 	protected ArrayList<Participant> participant;
 	private String ubicacio="";
 	private LocalDate data;

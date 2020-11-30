@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 
-public class Prova1000 {
+public class Prova1000 {//ha de ser fill de prova
 
 	/*
 	 * Crearem la clase prova1000 que tindrà el codi de la prova, club anfitrio, ubicacio, la data i la hora de sortida
@@ -12,7 +12,7 @@ public class Prova1000 {
 	 */
 	
 	//atributs
-	private int codiProva1000=0;
+	private int codiProva1000=0;// els atributs no s'han d'inicialitzar amb cap valor, això ho fa el constructor.
 	protected ArrayList<Participant> participant;
 	private String clubAnfitrio="";
 	private String ubicacio="";
